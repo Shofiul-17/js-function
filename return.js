@@ -149,7 +149,7 @@ function add(number1, number2) {
 
 // add(45, 15);
 var total = add(80, 20);
-// console.log('Total:', total);
+console.log('Total:', total);
 
 
 
