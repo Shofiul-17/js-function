@@ -22,4 +22,4 @@ var myComputer = {
 
 console.log(myComputer);
 myComputer.processor = "i79";
-// console.log(myComputer);
+console.log(myComputer);
