@@ -1,5 +1,5 @@
 
-/* 
+
 function add(num1, num2) {
     const sum = num1 + num2;
     return sum;
@@ -9,9 +9,9 @@ function add(num1, num2) {
   const result2 = add(35, 7);
   const finalResult = add(result1, result2);
   
-  console.log(finalResult); */
+  console.log(finalResult);
 
-  var shoppingCart = {
+  /* var shoppingCart = {
     books: 3,
     sunglass: 1,
     keyboard: 5,
@@ -21,4 +21,4 @@ function add(num1, num2) {
   };
   
   const keys = Object.keys(shoppingCart);
-  console.log(keys);
+  console.log(keys); */
