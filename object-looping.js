@@ -1,4 +1,6 @@
-/* ===================== Array Vs Object ===================== */
+/* ===================== 
+  Array Vs Object 
+===================== */
 
 // This is an array
 var shoppingItems = ["Books", "Sunglass", "Shoes", "Pen"];
@@ -38,49 +40,46 @@ var shoppingCart = {
   bottle: 1,
 };
 
-/* const keys = Object.keys(shoppingCart);
-console.log(keys); */
+// console.log(shoppingCart);
 
-// The Object.keys() method returns an array with the keys of an object.
-const properties = Object.keys(shoppingCart);
-console.log(properties);
+/* =====================================================================================
+  Using Object.keys method you will get output all the properties name from an object.
+====================================================================================== */
+const keys = Object.keys(shoppingCart);
+// console.log(keys);
 
-// The Object.values() method returns an array of the property values of an object.
-const propertiesValue = Object.values(shoppingCart);
-console.log(propertiesValue);
+/* =====================================================================================
+  Using Object.values method you will get output all the properties value from an object.
+===================================================================================== */
+const values = Object.values(shoppingCart);
+// console.log(values);
 
-/* ======================================================================== 
-   #1. This is hard way to looping to get object property & property values
-   ======================================================================== */
-// var properties = [ 'books', 'sunglass', 'keyboard', 'mouse', 'pen', 'shoes' 'bottle ' ]
-for (var i = 0; i < properties.length; i++) {
-  // console.log(properties[i]);
-  var propertyName = properties[i];
-  var propertiesValues = shoppingCart[propertyName];
-  // console.log(propertyName, "=", propertiesValues);
+
+
+/* ============================================================================ 
+   #1. This is the hard way to get object property & property values using loop
+============================================================================ */
+/* 
+What is keys? keys means an array.
+var keys = [ 'books', 'sunglass', 'keyboard', 'mouse', 'pen', 'shoes' 'bottle ' ]
+*/
+for (var i = 0; i < keys.length; i++){
+  // console.log(keys[i]);
+  // console.log(shoppingCart[])
 }
+for (var i = 0; i < keys.length; i++){
+  var propertyName = keys[i];
+  var propertyValue = shoppingCart[propertyName];
+  console.log(propertyName, ":", propertyValue);
+}
+
+
 
 /* ======================================================================== 
    #2. This is easy way to looping to get object property & property values
-   ======================================================================== */
+======================================================================== */
 //  for in loop
 for (var propertyName in shoppingCart) {
   const value = shoppingCart[propertyName];
-  console.log(propertyName, value);
+  // console.log(propertyName, value);
 }
-
-
-
-var friendsAge = {
-  rahim: 12,
-  samad: 45,
-  karim: 78,
-  jamal: 12,
-  robi: 32,
-  kazi: 14,
-};
-
-console.log(4%2);
-console.log(98%2);
-console.log(144%2);
-console.log(1286%2);

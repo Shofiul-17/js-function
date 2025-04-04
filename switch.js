@@ -1,6 +1,6 @@
-/* // if & else if er karbar chchhe protita condition dhore dhore check kore kore nicher dike jay. 
-eta if else er ekta boishistho. Eitar bhalo alternative hochchhe - switch */
+
 const color = "yellow";
+
 if (color === "green") {
   console.log("You are a green friend");
 } 
@@ -20,6 +20,9 @@ else {
   console.log("You are a black black friend");
 }
 
+
+/* if & else if er karbar hochchhe protita condition dhore dhore check kore kore nicher dike jay. 
+eta if else er ekta boishistho. Eitar bhalo alternative hochchhe - switch */
 
 // switch
 switch(color){
