@@ -47,7 +47,7 @@ switch(color){
 
 
 
-// Practise Task #1
+/* // Practise Task #1
 function make_avg(int1, int2, int3){
     const total = int1 + int2 + int3;
     const average = total / 3;
@@ -64,6 +64,6 @@ var myAverage = make_avg(
     num3
   );
   
-  console.log("My Average so far: ", myAverage);
+  console.log("My Average so far: ", myAverage); */
 
 
